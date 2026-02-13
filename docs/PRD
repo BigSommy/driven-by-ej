@@ -1,0 +1,148 @@
+2. PRODUCT REQUIREMENTS DOCUMENT (PRD)
+Product Vision
+To become a trusted, easy-to-understand digital dealership where buying a car feels safe, transparent, and stress-free.
+The site should answer questions before the user asks them on WhatsApp.
+USER EXPERIENCE & FLOW
+Primary User Flow
+A typical user journey should look like this:
+User lands on homepage →
+Sees cars + payment clarity →
+Builds trust through proof →
+Clicks WhatsApp →
+Conversation continues →
+Sale closes offline
+No forced signups. No complex forms.
+PAGE-BY-PAGE REQUIREMENTS
+1. Homepage
+Purpose:
+First impression, trust building, and fast action.
+Required Sections:
+Hero Section
+A large car image or short looping video.
+Clear headline focused on stress-free car buying.
+Headline copy example:
+“Buy Your Car From EJ Without Stress – Flexible Payment Plans Available”
+Primary CTAs:
+• View Cars
+• Chat on WhatsApp
+Why Buy From Driven by EJ
+Simple trust points displayed visually: • Verified cars
+• Flexible payment plans
+• No hidden issues
+• Nationwide delivery
+Featured Cars
+Show 4–6 cars with: • Image
+• Price
+• Monthly payment teaser (“Pay from ₦___ monthly”)
+• View Details button
+Optional Smart Feature
+A sticky notification or soft popup: “Car of the Week – Limited Offer”
+2. Cars Page (Showroom Page)
+Purpose:
+This is the money page. Users must clearly see what’s available and how much it costs.
+Each Car Card Must Show: • Clear images (front, back, interior)
+• Full price
+• Year, mileage, engine type
+• Condition (Foreign used / Nigerian used)
+• Payment option (Full / Installment)
+• WhatsApp CTA button
+Filters Required: • Brand (Toyota, Lexus, Mercedes, etc.)
+• Budget range
+• Payment type (Full / Installment)
+This page should feel like browsing a clean showroom, not scrolling Instagram chaos.
+3. Car Detail Page
+Purpose:
+Answer all questions before WhatsApp.
+Required Elements: • Large image gallery
+• Car specifications
+• Full price
+• Monthly payment estimate
+• Payment options available
+• Clear “Chat on WhatsApp” CTA
+Optional:
+Delivery availability and location note.
+4. Payment Plan Page (Key Differentiator)
+Purpose:
+Build confidence and remove fear around installments.
+Content Must Be Simple and Visual:
+Explain payment structure clearly: • 50% deposit
+• Balance spread: – Foreign used cars: 3–6 months
+– Nigerian used cars: 2-week spread
+Requirements: • Valid ID
+• Signed agreement
+• Any other basic requirement
+Step-by-step flow: Choose a car →
+Pay deposit →
+Drive home →
+Complete balance
+No long grammar. This page should feel like a conversation, not a contract.
+5. About Page
+Purpose:
+People buy the person, not just the car.
+Required Content: • Photo of EJ or the office
+• Short personal story (friendly, honest tone)
+• Mission: helping people buy reliable cars without pressure or scams
+Trust Proof: • Number of cars delivered
+• Years of experience
+• Photos of deliveries
+6. Testimonials Page
+Purpose:
+Social proof to push undecided buyers.
+Required Content: • Client photos with cars
+• WhatsApp screenshot reviews
+• Before/after delivery photos
+Even 5 strong testimonials are enough to drive conversions.
+7. Contact Page
+Purpose:
+Make communication effortless.
+Required Elements: • WhatsApp click button (primary)
+• Phone number
+• Instagram link
+• Optional location
+No forms. No friction.
+DESIGN REQUIREMENTS
+Visual Style
+Luxury, clean, trustworthy.
+Color Palette: • Deep Navy: #0E2A3A
+• Warm Gold / Mustard: #D4A437 – #C99A2E
+• Off-white / Cream: #FAF7F2
+• Optional accents: Slate blue or muted charcoal
+Typography: • Clean, bold fonts
+• Premium feel without being flashy
+Layout: • Mobile-first
+• Clear spacing
+• Fast loading
+• No heavy animations
+FUNCTIONAL REQUIREMENTS
+• WhatsApp chat bubble visible across site
+• Click-to-chat WhatsApp CTAs everywhere
+• Image optimization for speed
+• SEO-friendly pages
+• Easy content updates (cars, prices, testimonials)
+Optional but recommended: • Installment calculator
+• Blog section (education + SEO)
+Blog topics: • Best first cars in Nigeria
+• Foreign vs Nigerian used
+• How car installments work
+TECHNICAL REQUIREMENTS
+Frontend:
+Next.js / React
+Tailwind or similar styling framework
+CMS / Content Management:
+Simple CMS for updating: • Cars
+• Prices
+• Testimonials
+• Blog posts
+Performance:
+Fast load time on low network
+Optimized for mobile data users
+Hosting:
+Vercel or similar modern hosting platform
+OUT OF SCOPE (FOR NOW)
+• Online payment processing
+• User accounts
+• Automated checkout
+All sales continue via WhatsApp.
+FINAL NOTE
+This website is not just a “nice design.”
+It’s a sales tool, a trust builder, and a filter that brings only serious buyers into WhatsApp.

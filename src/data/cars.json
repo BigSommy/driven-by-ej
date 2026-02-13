@@ -1,0 +1,35 @@
+[
+  {
+    "id": "car-1",
+    "slug": "toyota-corolla-2016",
+    "title": "Toyota Corolla 2016",
+    "price": 2500000,
+    "year": 2016,
+    "mileage": "120,000 km",
+    "engine": "1.8L Petrol",
+    "condition": "Foreign used",
+    "images": ["/placeholder-car.svg"]
+  },
+  {
+    "id": "car-2",
+    "slug": "lexus-es-2014",
+    "title": "Lexus ES 2014",
+    "price": 4500000,
+    "year": 2014,
+    "mileage": "150,000 km",
+    "engine": "3.5L Petrol",
+    "condition": "Foreign used",
+    "images": ["/placeholder-car.svg"]
+  },
+  {
+    "id": "car-3",
+    "slug": "toyota-camry-2012",
+    "title": "Toyota Camry 2012",
+    "price": 1700000,
+    "year": 2012,
+    "mileage": "200,000 km",
+    "engine": "2.5L Petrol",
+    "condition": "Nigerian used",
+    "images": ["/placeholder-car.svg"]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "car-1",
+    "slug": "toyota-corolla-2016",
+    "title": "Toyota Corolla 2016",
+    "price": 3500000,
+    "year": 2016,
+    "mileage": "85,000 km",
+    "engine": "1.8L Petrol",
+    "condition": "Foreign used",
+    "images": ["/placeholder-car.svg"]
+  },
+  {
+    "id": "car-2",
+    "slug": "lexus-rx-2014",
+    "title": "Lexus RX 2014",
+    "price": 7500000,
+    "year": 2014,
+    "mileage": "120,000 km",
+    "engine": "3.5L Petrol",
+    "condition": "Foreign used",
+    "images": ["/placeholder-car.svg"]
+  },
+  {
+    "id": "car-3",
+    "slug": "nissan-sentra-2018",
+    "title": "Nissan Sentra 2018",
+    "price": 4200000,
+    "year": 2018,
+    "mileage": "60,000 km",
+    "engine": "1.6L Petrol",
+    "condition": "Nigerian used",
+    "images": ["/placeholder-car.svg"]
+  },
+  {
+    "id": "car-4",
+    "slug": "mercedes-c300-2012",
+    "title": "Mercedes C300 2012",
+    "price": 6500000,
+    "year": 2012,
+    "mileage": "140,000 km",
+    "engine": "3.0L Petrol",
+    "condition": "Foreign used",
+    "images": ["/placeholder-car.svg"]
+  }
+]
