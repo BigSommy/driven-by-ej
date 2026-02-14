@@ -154,8 +154,8 @@ export async function fetchApprovedReviews(): Promise<Review[]> {
   }
 }
 
-// Car of the Week query
-const CAR_OF_THE_WEEK_QUERY = `*[_type == "car" && isCarOfTheWeek == true && status == "available" && (!defined(dealEndsAt) || dealEndsAt > now())][0] {
+// Car of the Week query - fetch up to 3 deals
+const WEEKLY_DEALS_QUERY = `*[_type == "car" && isCarOfTheWeek == true && status == "available" && (!defined(dealEndsAt) || dealEndsAt > now())] | order(_createdAt desc) [0...3] {
   _id,
   title,
   "slug": slug.current,
@@ -175,10 +175,21 @@ const CAR_OF_THE_WEEK_QUERY = `*[_type == "car" && isCarOfTheWeek == true && sta
   status
 }`;
 
+export async function fetchWeeklyDeals(): Promise<Car[]> {
+  try {
+    const cars = await client.fetch<Car[]>(WEEKLY_DEALS_QUERY);
+    return cars.map(transformCar);
+  } catch (error) {
+    console.error("Error fetching weekly deals:", error);
+    return [];
+  }
+}
+
+// Keep backward compatibility
 export async function fetchCarOfTheWeek(): Promise<Car | null> {
   try {
-    const car = await client.fetch<Car>(CAR_OF_THE_WEEK_QUERY);
-    return car ? transformCar(car) : null;
+    const deals = await fetchWeeklyDeals();
+    return deals.length > 0 ? deals[0] : null;
   } catch (error) {
     console.error("Error fetching car of the week:", error);
     return null;
