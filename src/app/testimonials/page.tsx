@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { fetchApprovedReviews } from "../../lib/sanityClient";
 
+// Revalidate to fetch fresh reviews
+export const revalidate = 60;
+
 export default async function TestimonialsPage() {
   const reviews = await fetchApprovedReviews();
 
